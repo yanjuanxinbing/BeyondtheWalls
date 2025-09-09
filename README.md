@@ -1,47 +1,5 @@
-# BeyondtheWalls
-BeyondtheWalls/
-├── src/
-│   ├── main/
-│   │   ├── java/com/beyondthewalls/
-│   │   │   ├── game/
-│   │   │   │   ├── core/                    # 核心接口和事件系统
-│   │   │   │   │   ├── Movement.java        # 移动接口
-│   │   │   │   │   ├── Collision.java       # 碰撞接口
-│   │   │   │   │   ├── Input.java           # 输入接口
-│   │   │   │   │   ├── Renderable.java      # 渲染接口
-│   │   │   │   │   ├── Monitoring.java      # 监测接口
-│   │   │   │   │   └── GameEvent.java       # 游戏事件类
-│   │   │   │   ├── entities/
-│   │   │   │   │   ├── characters/          # 人物属性相关
-│   │   │   │   │   │   ├── Player.java      # 玩家角色
-│   │   │   │   │   │   ├── girl.java        # 女孩角色
-│   │   │   │   │   │   └── cutecat.java     # 猫猫角色
-│   │   │   │   │   ├── background/          # 背景相关
-│   │   │   │   │   │   ├── BackgroundManager.java
-│   │   │   │   │   │   ├── Terrain.java     # 地形系统
-│   │   │   │   │   │   └── ParallaxLayer.java # 视差层
-│   │   │   │   │   └── interaction/         # 交互相关
-│   │   │   │   │       ├── Box.java         # 可移动箱子
-│   │   │   │   │       ├── Treasure.java    # 宝物
-│   │   │   │   │       ├── Goal.java        # 终点
-│   │   │   │   │       └── Button.java      # 机关按钮
-│   │   │   │   ├── managers/
-│   │   │   │   │   ├── LevelManager.java    # 关卡管理
-│   │   │   │   │   ├── AudioManager.java    # 音频管理
-│   │   │   │   │   ├── CollisionManager.java # 碰撞管理
-│   │   │   │   │   └── InputManager.java    # 输入管理
-│   │   │   │   ├── utils/
-│   │   │   │   │   ├── ConfigLoader.java    # 配置加载
-│   │   │   │   │   ├── Constants.java       # 常量定义
-│   │   │   │   │   └── ResourceLoader.java  # 资源加载
-│   │   │   │   └── Main.java                # 应用入口
-│   │   └── resources/
-│   │       ├── levels/                      # 关卡配置文件
-│   │       ├── audio/                       # 音频资源
-│   │       ├── images/                      # 图像资源
-│   │       └── styles/                      # CSS样式文件
-├── build.gradle                             # Gradle构建配置
-└── README.md
+<img width="894" height="1287" alt="101dcb69fbbe543a2847f0eb7f568de9" src="https://github.com/user-attachments/assets/f55ae462-323d-4945-899a-7dd585d981df" />
+
 
 
 public interface Movement {
